@@ -23,4 +23,4 @@ Route::get('/users',[UserApiController::class,'index']);
 Route::get('/users/{id}',[UserApiController::class ,'show']);
 Route::post('/users',[UserApiController::class,'store']);
 Route::delete('/users/{id}',[UserApiController::class,'destroy']);
-Route::get('/users-login-user',[UserApiController::class,'login']);
+Route::get('/login-user',[UserApiController::class,'login']);
